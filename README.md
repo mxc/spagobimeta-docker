@@ -16,4 +16,4 @@ The above command does the following:
 * **--rm** - this will remove the container after it has been run, another reason to make sure you map your workspace into a folder on the hosts!. You can leave this out and just keep the container around and stop and start it when needed. The container is named **SpagoBIMeta** so you can use "docker start SpagoBIMeta" if you want to use the same container again after exisitng the IDE,
 * **-d** Means run the process in detached mode so log messages are not shown on stdout. To see log messages, which can be important for debugging problems with your model use **"docker log SpagoBIMeta"**,
 * **--name SpagoBIMeta** - is the name of the container. You can use this in docker commands to refer to the running container
-  **jumpingbean/spagobimeta:5.2** is the image to pull and launch.
+*  **jumpingbean/spagobimeta:5.2** is the image to pull and launch.
